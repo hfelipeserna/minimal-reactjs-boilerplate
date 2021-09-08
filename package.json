@@ -1,6 +1,6 @@
 {
   "name": "minimal-reactjs",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "minimal reactjs boilerplate",
   "main": "index.js",
   "scripts": {
@@ -46,6 +46,6 @@
     ]
   },
   "bin": {
-    "minimal-reactjs-boilerplate": "./bin/start.js"
+    "minimal-reactjs": "./bin/start.js"
   }
 }
