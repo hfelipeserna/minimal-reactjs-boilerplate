@@ -1,6 +1,6 @@
 {
-  "name": "minimal-reactjs",
-  "version": "1.0.0",
+  "name": "minimal-reactjs-boilerplate",
+  "version": "1.1.0",
   "description": "minimal reactjs boilerplate",
   "main": "index.js",
   "scripts": {
@@ -39,11 +39,13 @@
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.1.1"
   },
-  "presets": [
-    "@babel/preset-env",
-    "@babel/preset-react"
-  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "bin": {
-    "your-boilerplate-name": "./bin/start.js"
+    "minimal-reactjs-boilerplate": "./bin/start.js"
   }
 }

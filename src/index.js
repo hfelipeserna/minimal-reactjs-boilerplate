@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import Boilerplate from './Boilerplate';
+import Boilerplate from './HelloWorld';
 
-render(<Boilerplate />, document.getElementById('root'));
+render(<HelloWorld />, document.getElementById('root'));
